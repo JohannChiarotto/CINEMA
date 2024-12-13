@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 
+
 using namespace std;
 
 class Movie
@@ -11,16 +12,17 @@ class Movie
 private:
 	string m_titre;
 	int m_duree;
-	vector<string>
+	//vector <Session> liste();
 
 public:
 
 	//Constructeurs
-	Movie(string t, string a);
+	Movie(string t, int d);
 
 	//getter
 	string get_titre() const;
-	string get_auteur() const;
+	int get_duree() const;
+//	vector <Session> get_liste() const;
 
 };
 
