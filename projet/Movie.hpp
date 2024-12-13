@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <vector>
+#include "Cinema.hpp"
+#include "Ticket.hpp"
+#include "Session.hpp"
 
 
 using namespace std;

@@ -3,23 +3,24 @@
 
 #include <iostream>
 #include <vector>
+#include "Movie.hpp"
+#include "Ticket.hpp"
+#include "Session.hpp"
 
 using namespace std;
 
 class Cinema
 {
 private:
-	string m_titre;
-	string m_auteur;
+	Movie m_details;
+	Ticket m_reservation;
 
 public:
 
 	//Constructeurs
-	Cinema(string t, string a);
+	Cinema(Movie d, Ticket r);
 
 	//getter
-	string get_titre() const;
-	string get_auteur() const;
 
 };
 
