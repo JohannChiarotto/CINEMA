@@ -1,8 +1,11 @@
 #ifndef SESSION
 #define SESSION
 
+
 #include <iostream>
 #include <vector>
+#include "Movie.hpp"
+
 
 using namespace std;
 
