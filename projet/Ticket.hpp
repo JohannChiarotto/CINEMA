@@ -20,8 +20,10 @@ public:
 	Ticket(string f, string s, int nb, int p);
 
 	//getter
-	string get_titre() const;
-	string get_auteur() const;
+	string get_film() const;
+	string get_seance() const;
+	int get_nb_places() const;
+	float get_prix() const;
 
 };
 

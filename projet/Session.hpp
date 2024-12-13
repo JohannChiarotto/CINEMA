@@ -19,8 +19,9 @@ public:
 	Session(string d, string h, int p);
 
 	//getter
-	string get_titre() const;
-	string get_auteur() const;
+	string get_date() const;
+	string get_heure() const;
+	int get_nb_places() const;
 
 };
 
