@@ -13,11 +13,6 @@ string Ticket::get_film() const
 	return m_film;
 }
 
-string Ticket::get_seance() const
-{
-	return m_seance;
-}
-
 int Ticket::get_nb_places() const
 {
 	return m_nb_places;
