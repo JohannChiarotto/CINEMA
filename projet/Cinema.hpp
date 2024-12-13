@@ -18,8 +18,8 @@ private:
 public:
 
 	//Constructeurs
-	Cinema(Movie d, Ticket r);
-
+	Cinema() : m_details(Movie()), m_reservation(Ticket()){} //par defaut
+	Cinema(const Movie& details, const Ticket& reservation);
 	//getter
 
 };

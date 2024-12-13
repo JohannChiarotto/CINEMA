@@ -20,6 +20,7 @@ private:
 public:
 
 	//Constructeurs
+	Movie() : m_titre(""), m_duree(0){} //par defaut
 	Movie(string t, int d);
 
 	//getter

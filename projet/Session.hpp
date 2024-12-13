@@ -20,6 +20,7 @@ private:
 public:
 
 	//Constructeurs
+	Session() : m_date(""), m_heure(""), m_nb_places(0){} //par defaut
 	Session(string d, string h, int p);
 
 	//getter
