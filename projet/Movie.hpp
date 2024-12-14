@@ -15,7 +15,7 @@ class Movie
 private:
 	string m_titre;
 	int m_duree;
-	//vector <Session> liste();
+	vector <Session> liste();
 
 public:
 
