@@ -12,8 +12,6 @@ void AfficherMenu() {
 	cout << "2. Annuler une reservation" << endl;
 	cout << "3. Quitter" << endl;
 	cout << "Entrez votre choix : ";
-
-
 }
 
 
