@@ -3,8 +3,6 @@
 
 #include <iostream>
 #include <vector>
-#include "Cinema.hpp"
-#include "Ticket.hpp"
 #include "Session.hpp"
 
 
@@ -15,7 +13,7 @@ class Movie
 private:
 	string m_titre;
 	int m_duree;
-	vector <Session> liste();
+	vector <Session> liste;
 
 public:
 

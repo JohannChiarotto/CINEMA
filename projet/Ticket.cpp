@@ -1,6 +1,6 @@
 #include "Ticket.hpp"
 
-Ticket::Ticket(string f, string s, int nb, int p)
+Ticket::Ticket(string f, string s, int nb, float p)
 {
 	m_film = f;
 	m_seance = Session();

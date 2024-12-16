@@ -4,9 +4,6 @@
 
 #include <iostream>
 #include <vector>
-#include "Movie.hpp"
-#include "Cinema.hpp"
-#include "Ticket.hpp"
 
 using namespace std;
 

@@ -5,20 +5,19 @@
 #include <vector>
 #include "Movie.hpp"
 #include "Ticket.hpp"
-#include "Session.hpp"
 
 using namespace std;
 
 class Cinema
 {
 private:
-	Movie m_details;
 	Ticket m_reservation;
+	Movie m_details;
 
 public:
 
 	//Constructeurs
-	Cinema() : m_details(Movie()), m_reservation(Ticket()){} //par defaut
+	Cinema(); //par defaut
 	Cinema(const Movie& details, const Ticket& reservation);
 	//getter
 
