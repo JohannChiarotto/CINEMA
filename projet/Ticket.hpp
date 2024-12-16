@@ -21,7 +21,7 @@ public:
 
 	//Constructeurs
 	Ticket() : m_film(""), m_seance(Session()), m_nb_places(0), m_prix(0.0f) {} //par defaut
-	Ticket(string f, string s, int nb, int p);
+	Ticket(string f, string s, int nb, float p);
 
 	//getter
 	string get_film() const;
